@@ -47,7 +47,7 @@ params_adhesin_ff = {'fname': 'data_adhesin_360_soft_4d.h5',
                   'probe_size': (64, 64),
                   # 'learning_rate': 1., # for non-shared file mode gd
                   # 'learning_rate': 1e-8, # for shared-file mode adam
-                  'learning_rate': 1e-5, # for shared-file mode gd
+                  'learning_rate': 1, # for shared-file mode gd
                   'center': 32,
                   'energy_ev': 800,
                   'psize_cm': 0.67e-7,
@@ -354,8 +354,8 @@ params_cone = {'fname': 'data_cone_256_1nm_marc.h5',
                'free_prop_cm': 'inf'
                }
 
-# params = params_adhesin_ff
-params = params_adhesin_2
+params = params_adhesin_ff
+# params = params_adhesin_2
 # params = params_cone_marc
 # params = params_cone_marc_theta
 # params = params_2d_cell

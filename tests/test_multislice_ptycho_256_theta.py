@@ -73,6 +73,7 @@ params_cone_marc_theta = {'fname': 'data_cone_256_foam_1nm.h5',
                         'free_prop_cm': 'inf'
                         }
 
-params = params_adhesin_2
+#params = params_adhesin_2
+params = params_cone_marc_theta
 
 reconstruct_ptychography(**params)
